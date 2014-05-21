@@ -1,0 +1,12 @@
+#submitButton {
+	display: none;
+}
+
+.readyToSubmit #submitButton {
+	display: inline-block;
+}
+
+#congressLongerPercent {
+	font-size: 20px;
+	color: red;
+}
