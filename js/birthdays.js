@@ -24,7 +24,7 @@ var compareDates = function(event){
 		}
 	}
 	//calculate the result total iterated as a percentage
-	var percentOfCongressInOfficeLonger = Math.round(numberCongressInOfficeLonger / data.length) * 100;
+	var percentOfCongressInOfficeLonger = Math.round((numberCongressInOfficeLonger / data.length) * 100);
 	var percentOfCongressInOfficeLongerString = percentOfCongressInOfficeLonger + '%';
 	//output the percentage into the div
 	$('#bdayOutput').html( '<p><span id="congressLongerPercent">' + (percentOfCongressInOfficeLongerString) +'</span> of Congress has been in office longer than you\'ve been alive.' );
