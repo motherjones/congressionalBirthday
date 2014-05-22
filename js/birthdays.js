@@ -23,11 +23,13 @@ var compareDates = function(event){
 			numberCongressInOfficeLonger++
 		}
 	}
-	//calculate the result total iterated as a percentage
+	/*calculate the result total iterated as a percentage
 	var percentOfCongressInOfficeLonger = Math.round((numberCongressInOfficeLonger / data.length) * 100);
 	var percentOfCongressInOfficeLongerString = percentOfCongressInOfficeLonger + '%';
 	//output the percentage into the div
 	$('#bdayOutput').html( '<p><span id="congressLongerPercent">' + (percentOfCongressInOfficeLongerString) +'</span> of Congress has been in office longer than you\'ve been alive.' );
+  */
+	$('#bdayOutput').html( '<p><span id="congressLongerPercent">' + (numberCongressInOfficeLonger) +'</span> out of 532 current lawmakers have been in Congress longer than you\'ve been alive.' );
 };
 
 Tabletop.init( { 
